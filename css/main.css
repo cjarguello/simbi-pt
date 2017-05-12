@@ -1,0 +1,16 @@
+.flyover article.bug .meta:before, .story.bug .meta:before {
+  background-image: url('chrome-extension://__MSG_@@extension_id__/images/poop.png') !important;
+  background-size: 20px !important;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.story_name img {
+  width: 24px;
+  vertical-align: middle;
+}
+
+.owner img {
+  width: 20px;
+  vertical-align: middle;
+}

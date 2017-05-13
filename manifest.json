@@ -8,6 +8,11 @@
     "default_icon": "c2c.png"
 
   },
+  "page_action": {
+    "default_title": "page action demo",
+    "default_popup": "src/page_action/page_action.html"
+
+  },
   "content_scripts": [{
     "matches": ["https://www.pivotaltracker.com/*"],
     "js": ["./js/jquery-3.1.1.min.js", "./js/worker.js", "js/jquery.js","js/matchLabels.js"],

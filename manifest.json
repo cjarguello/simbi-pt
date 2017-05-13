@@ -5,7 +5,6 @@
   "description": "Color code specific labels in Pivotal Tracker",
   "browser_action": {
     "default_icon": "/icons/icons19.png"
-    "default_title": "Simbi PT",
   },
   "content_scripts": [{
     "matches": ["https://www.pivotaltracker.com/*"],

@@ -3,16 +3,8 @@
   "version": "1.0",
   "manifest_version": 2,
   "description": "Color code specific labels in Pivotal Tracker",
-  "icons": {
-    "16": "icons/icon16.png",
-    "19": "icons/icon16.png",
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
-  },
-  "page_action": {
-    "default_icon": "icons/icon19.png",
-    "default_title": "Simbi PT",
-    "default_popup": "src/page_action/page_action.html"
+  "browser_action": {
+    "default_icon": "c2c.png"
   },
   "content_scripts": [{
     "matches": ["https://www.pivotaltracker.com/*"],

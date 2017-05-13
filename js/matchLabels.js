@@ -1,3 +1,12 @@
+var LABEL_RULES = {
+  // Define label rules here:
+  // 'label_text': 'label_css_class'
+  'planner': 'blue-label',
+  'needs': 'red-label',
+  'estimate': 'yellow-label',
+  'live': 'green-label'
+};
+
 chrome.extension.sendMessage({}, function(response) {
   var readyStateCheckInterval = setInterval(function() {
     if (document.readyState === "complete") {
@@ -20,33 +29,29 @@ chrome.extension.sendMessage({}, function(response) {
       var handleMutationEvents = function handleMutationEvents(mutation) {
         Array.prototype.forEach.call(mutation.addedNodes, styleLabelsInNode);
         styleLabelsInNode(mutation.target);
-      }
+      };
 
       var styleLabelsInNode = function styleLabelsInNode(node) {
         if (nodeIsElement(node)) {
           styleLabels(findLabelsInNode(node));
         }
-      }
+      };
 
       var nodeIsElement = function nodeIsElement(node) {
         return (typeof node.querySelectorAll !== 'undefined');
-      }
+      };
 
       var findLabelsInNode = function findLabelsInNode(node) {
         return node.querySelectorAll('a.label');
-      }
+      };
 
       var styleLabels = function styleLabels(labels) {
         Array.prototype.forEach.call(labels, function(label) {
-          if (label.textContent.match("planner")) {
-            label.classList.add("planner-label");
-          } else if (label.textContent.match("needs")) {
-            label.classList.add("blocked-label");
-          } else if (label.textContent.match("investigate")) {
-            label.classList.add("attention-label");
-          } else if (label.textContent.match("live")) {
-            label.classList.add("live-label");
+          Object.keys(LABEL_RULES).forEach(function(label_rule){
+            if (label.textContent.match(label_rule)) {
+            label.classList.add(LABEL_RULES[label_rule]);
           }
+          });
         });
       }
     }

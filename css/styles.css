@@ -24,7 +24,7 @@
   color: #fff;
 }
 
-/* Blocked */
+/* Blocked or Needs */
 .preview a.label.blocked-label {
   background-color: #CD2644;
   color: #fff;
@@ -52,7 +52,7 @@
 
 /* Attention */
 
-.preview a.label.church-metrics-label {
+.preview a.label.attention-label {
   background-color: #7fc661;
   color: #416E28;
   border-radius: 20px;
@@ -65,7 +65,7 @@
   border-color: #416E28;
 }
 
-.labels_maker .selected.labels li a.label.attentions-label,
+.labels_maker .selected.labels li a.label.attention-label,
 .labels_maker .selected.labels li a.label.attention-label + a.remove {
   background-color: #7fc661;
   color: #416E28;

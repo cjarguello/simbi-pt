@@ -11,7 +11,7 @@
   },
   "page_action": {
     "default_icon": "icons/icon19.png",
-    "default_title": "page action demo",
+    "default_title": "Simbi PT",
     "default_popup": "src/page_action/page_action.html"
   },
   "content_scripts": [{

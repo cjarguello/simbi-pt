@@ -1,10 +1,10 @@
 var LABEL_RULES = {
   // Define label rules here:
   // 'label_text': 'label_css_class'
-  'planner': 'blue-label',
-  'needs': 'red-label',
-  'estimate': 'yellow-label',
-  'live': 'green-label'
+  'planner': 'planner-label',
+  'needs': 'blocked-label',
+  'estimate': 'attention-label',
+  'live': 'live-label'
 };
 
 chrome.extension.sendMessage({}, function(response) {

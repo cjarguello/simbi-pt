@@ -1,30 +1,22 @@
 {
-  "manifest_version": 2,
-
   "name": "Simbify Pivotal Tracker",
-  "description": "Color code specific labels in Pivotal Tracker",
   "version": "1.0",
+  "manifest_version": 2,
+  "description": "Color code specific labels in Pivotal Tracker",
 
   "browser_action": {
     "default_icon": "c2c.png"
+
   },
+  "content_scripts": [{
+    "matches": ["https://www.pivotaltracker.com/*"],
+    "js": ["./js/jquery-3.1.1.min.js", "./js/worker.js", "js/jquery.js","js/matchLabels.js"],
+    "css": ["./css/main.css", "css/styles.css"]
+    
+    }],
   "permissions": [
-    "http://www.pivotaltracker.com/*",
-    "https://www.pivotaltracker.com/*"
+    "https://www.pivotaltracker.com/*", "tabs"
   ],
-  "content_scripts": [
-    {
-      "matches": [
-        "http://www.pivotaltracker.com/*",
-        "https://www.pivotaltracker.com/*"
-      ],
-      "js": [
-        "js/jquery.js",
-        "js/matchLabels.js"
-      ],
-      "css": [
-        "css/styles.css"
-      ]
-    }
-  ]
+  
+  "web_accessible_resources": ["images/*"]
 }

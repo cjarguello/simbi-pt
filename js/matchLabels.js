@@ -3,7 +3,9 @@ var LABEL_RULES = {
   // 'label_text': 'label_css_class'
   'planner': 'planner-label',
   'needs': 'blocked-label',
-  'estimate': 'attention-label',
+  'blocked': 'blocked-label',
+  'estimate': 'attention-label'
+  'investigate': 'attention-label',
   'live': 'live-label'
 };
 

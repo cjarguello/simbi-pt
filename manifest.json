@@ -4,11 +4,9 @@
   "manifest_version": 2,
   "description": "Color code specific labels in Pivotal Tracker",
 
-  "browser_action": {
-    "default_icon": "c2c.png"
-
   },
   "page_action": {
+    "default_icon": "icons/c2c.png",
     "default_title": "page action demo",
     "default_popup": "src/page_action/page_action.html"
 

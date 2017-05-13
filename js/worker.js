@@ -7,7 +7,7 @@ function replaceTitles() {
     replaceTitle(val, '.story_name');
   });
 
-  $.each(['AK', 'HK', 'CJ'], function(i, val) {
+  $.each(['AK', 'CJ'], function(i, val) {
     replaceTitle(val, '.owner');
   })
 }

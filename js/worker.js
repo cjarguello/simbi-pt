@@ -3,7 +3,7 @@ $(function() {
 });
 
 function replaceTitles() {
-  $.each(['Users', 'Admins', 'Newbis'], function(idx, val) {
+  $.each(['Quick', 'Admins', 'Newbis'], function(idx, val) {
     replaceTitle(val, '.story_name');
   });
 

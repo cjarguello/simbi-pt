@@ -78,8 +78,8 @@
 
 /* Live */
 .preview a.label.live-label {
-  background-color: #00e700;
-  color: #a6610e;
+  background-color: #7fc661;
+  color: #416e28;
   border-radius: 20px;
   margin: 0 2px;
   padding: 1px 6px 1px 6px;
@@ -87,44 +87,17 @@
 }
 
 .labels_maker .selected.labels li a.label.live-label + a.remove:before {
-  border-color: #fff;
+  border-color: #416e28;
 }
 
 .labels_maker .selected.labels li a.label.live-label,
 .labels_maker .selected.labels li a.label.live-label + a.remove {
-  background-color: #00e700;
-  color: #fff;
+  background-color: #7fc661;
+  color: #416e28;
 }
 
 .labels_maker .selected.labels li a.label.live-label:hover,
 .labels_maker .selected.labels li a.label.live-label + a.remove:hover {
-  background-color: #00e700;
+  background-color: #7fc661;
   color: #fff;
 }
-
-/* Livea */
-.preview a.label.livea-label {
-  background-color: #7fc661;
-  color: #416E28;
-  border-radius: 20px;
-  margin: 0 2px;
-  padding: 1px 6px 1px 6px;
-  white-space: nowrap;
-}
-
-.labels_maker .selected.labels li a.label.livea-label + a.remove:before {
-  border-color: #7fc661;
-}
-
-.labels_maker .selected.labels li a.label.livea-label,
-.labels_maker .selected.labels li a.label.livea-label + a.remove {
-  background-color: #7fc661;
-  color: #416E28;
-}
-
-.labels_maker .selected.labels li a.label.livea-label:hover,
-.labels_maker .selected.labels li a.label.livea-label + a.remove:hover {
-  background-color: #7fc661;
-  color: #c261c6;
-}
-

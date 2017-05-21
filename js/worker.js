@@ -10,7 +10,7 @@ $(function() {
 
 function replaceTitles() {
   var TO_REPLACE = {
-    '.story_name': ['Quick', 'loloasdh', 'novver'],
+    '.story_name': ['lolasnd', 'loloasdh', 'novver'],
     '.owner': ['no', 'neverr']
   }
 

@@ -4,7 +4,8 @@ var LABEL_RULES = {
   'planner': 'planner-label',
   'blocked': 'blocked-label',
   'needs': 'attention-label',
-  'livea': 'live-label'
+  'live': 'live-label'
+  'livea': 'livea-label'
 
 };
 

@@ -102,3 +102,30 @@
   background-color: #00e700;
   color: #fff;
 }
+
+/* Live2 */
+
+.preview a.label.live2-label {
+  background-color: #00e700;
+  color: #416E28;
+  border-radius: 20px;
+  margin: 0 2px;
+  padding: 1px 6px 1px 6px;
+  white-space: nowrap;
+}
+
+.labels_maker .selected.labels li a.label.live2-label + a.remove:before {
+  border-color: #416E28;
+}
+
+.labels_maker .selected.labels li a.label.live2-label,
+.labels_maker .selected.labels li a.label.live2-label + a.remove {
+  background-color: #00e700;
+  color: #416E28;
+}
+
+.labels_maker .selected.labels li a.label.live2-label:hover,
+.labels_maker .selected.labels li a.label.live2-label + a.remove:hover {
+  background-color: #00e700;
+  color: #416E28;
+}

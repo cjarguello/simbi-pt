@@ -1,7 +1,7 @@
 /* Planner */
 .preview a.label.planner-label {
-  background-color: #64b4f2;
-  color: #395468;
+  background-color: #0094d5;
+  color: #026695;
   border-radius: 20px;
   margin: 0 2px;
   padding: 1px 6px 1px 6px;
@@ -9,24 +9,24 @@
 }
 
 .labels_maker .selected.labels li a.label.planner-label + a.remove:before {
-  border-color: #395468;
+  border-color: #026695;
 }
 
 .labels_maker .selected.labels li a.label.planner-label,
 .labels_maker .selected.labels li a.label.planner-label + a.remove {
-  background-color: #64b4f2;
+  background-color: #0094d5;
   color: #395468;
 }
 
 .labels_maker .selected.labels li a.label.planner-label:hover,
 .labels_maker .selected.labels li a.label.planner-label + a.remove:hover {
-  background-color: #395468;
+  background-color: #0094d5;
   color: #fff;
 }
 
 /* Blocked */
 .preview a.label.blocked-label {
-  background-color: #CD2644;
+  background-color: #ff8575;
   color: #fff;
   border-radius: 20px;
   margin: 0 2px;
@@ -40,19 +40,19 @@
 
 .labels_maker .selected.labels li a.label.blocked-label,
 .labels_maker .selected.labels li a.label.blocked-label + a.remove {
-  background-color: #CD2644;
+  background-color: #ff8575;
   color: #FFF;
 }
 
 .labels_maker .selected.labels li a.label.blocked-label:hover,
 .labels_maker .selected.labels li a.label.blocked-label + a.remove:hover {
-  background-color: #CD2644;
+  background-color: #ff8575;
   color: #fff;
 }
 
 /* Attention */
 .preview a.label.attention-label {
-  background-color: #fcdb51;
+  background-color: #ffcd66;
   color: #9d6f00;
   border-radius: 20px;
   margin: 0 2px;
@@ -66,20 +66,20 @@
 
 .labels_maker .selected.labels li a.label.attention-label,
 .labels_maker .selected.labels li a.label.attention-label + a.remove {
-  background-color: #fcdb51;
+  background-color: #ffcd66;
   color: #9d6f00;
 }
 
 .labels_maker .selected.labels li a.label.attention-label:hover,
 .labels_maker .selected.labels li a.label.attention-label + a.remove:hover {
-  background-color: #fcdb51;
+  background-color: #ffcd66;
   color: #fff;
 }
 
 /* Live */
 .preview a.label.live-label {
-  background-color: #7fc661;
-  color: #baff93;
+  background-color: #1fcd6d;
+  color: #fff;
   border-radius: 20px;
   margin: 0 2px;
   padding: 1px 6px 1px 6px;
@@ -87,17 +87,17 @@
 }
 
 .labels_maker .selected.labels li a.label.live-label + a.remove:before {
-  border-color: #baff93;
+  border-color: #fff;
 }
 
 .labels_maker .selected.labels li a.label.live-label,
 .labels_maker .selected.labels li a.label.live-label + a.remove {
-  background-color: #7fc661;
-  color: #baff93;
+  background-color: #1fcd6d;
+  color: #fff;
 }
 
 .labels_maker .selected.labels li a.label.live-label:hover,
 .labels_maker .selected.labels li a.label.live-label + a.remove:hover {
-  background-color: #7fc661;
+  background-color: #1fcd6d;
   color: #fff;
 }

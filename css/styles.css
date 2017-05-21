@@ -52,8 +52,8 @@
 
 /* Attention */
 .preview a.label.attention-label {
-  background-color: #7fc661;
-  color: #416E28;
+  background-color: #fcdb51;
+  color: #9d6f00;
   border-radius: 20px;
   margin: 0 2px;
   padding: 1px 6px 1px 6px;
@@ -61,18 +61,18 @@
 }
 
 .labels_maker .selected.labels li a.label.attention-label + a.remove:before {
-  border-color: #416E28;
+  border-color: #9d6f00;
 }
 
 .labels_maker .selected.labels li a.label.attention-label,
 .labels_maker .selected.labels li a.label.attention-label + a.remove {
-  background-color: #7fc661;
-  color: #416E28;
+  background-color: #fcdb51;
+  color: #9d6f00;
 }
 
 .labels_maker .selected.labels li a.label.attention-label:hover,
 .labels_maker .selected.labels li a.label.attention-label + a.remove:hover {
-  background-color: #416E28;
+  background-color: #fcdb51;
   color: #fff;
 }
 
@@ -127,5 +127,5 @@
 .labels_maker .selected.labels li a.label.live2-label:hover,
 .labels_maker .selected.labels li a.label.live2-label + a.remove:hover {
   background-color: #00e700;
-  color: #416E28;
+  color: #0041e7;
 }

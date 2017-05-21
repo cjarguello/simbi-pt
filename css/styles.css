@@ -51,7 +51,7 @@
 }
 
 /* Attention */
-.preview a.attention-label {
+.preview a.label.attention-label {
   background-color: #7fc661;
   color: #416E28;
   border-radius: 20px;

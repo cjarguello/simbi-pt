@@ -78,7 +78,7 @@
 
 /* Live */
 .preview a.label.live-label {
-  background-color: #1fcd6d;
+  background-color: #12ba12;
   color: #fff;
   border-radius: 20px;
   margin: 0 2px;
@@ -92,12 +92,12 @@
 
 .labels_maker .selected.labels li a.label.live-label,
 .labels_maker .selected.labels li a.label.live-label + a.remove {
-  background-color: #1fcd6d;
+  background-color: #12ba12;
   color: #fff;
 }
 
 .labels_maker .selected.labels li a.label.live-label:hover,
 .labels_maker .selected.labels li a.label.live-label + a.remove:hover {
-  background-color: #1fcd6d;
+  background-color: #12ba12;
   color: #fff;
 }

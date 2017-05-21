@@ -10,8 +10,8 @@ $(function() {
 
 function replaceTitles() {
   var TO_REPLACE = {
-    '.story_name': ['Quick', 'Admins', 'Newbis'],
-    '.owner': ['AK', 'CJ']
+    '.story_name': ['Quick', 'loloasdh', 'novver'],
+    '.owner': ['no', 'neverr']
   }
 
   Object.keys(TO_REPLACE).forEach(function(cssClass) { // loop thru keys in TO_REPLACE; key = cssClass

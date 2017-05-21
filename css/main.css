@@ -1,5 +1,5 @@
 .flyover article.bug .meta:before, .story.bug .meta:before {
-  background-image: url('chrome-extension://__MSG_@@extension_id__/images/ladybug.png') !important;
+  background-image: url('chrome-extension://__MSG_@@extension_id__/images/ptbug.png') !important;
   background-size: 20px !important;
   width: 20px !important;
   height: 20px !important;

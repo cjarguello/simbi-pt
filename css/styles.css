@@ -35,7 +35,7 @@
 }
 
 .labels_maker .selected.labels li a.label.blocked-label + a.remove:before {
-  border-color: #FFF;
+  border-color: #fff;
 }
 
 .labels_maker .selected.labels li a.label.blocked-label,
@@ -105,7 +105,7 @@
 
 /* Live2 */
 
-.preview a.label.live2-label {
+.preview a.label.livea-label {
   background-color: #00e700;
   color: #416E28;
   border-radius: 20px;
@@ -114,18 +114,18 @@
   white-space: nowrap;
 }
 
-.labels_maker .selected.labels li a.label.live2-label + a.remove:before {
+.labels_maker .selected.labels li a.label.livea-label + a.remove:before {
   border-color: #416E28;
 }
 
-.labels_maker .selected.labels li a.label.live2-label,
-.labels_maker .selected.labels li a.label.live2-label + a.remove {
+.labels_maker .selected.labels li a.label.livea-label,
+.labels_maker .selected.labels li a.label.livea-label + a.remove {
   background-color: #00e700;
   color: #416E28;
 }
 
-.labels_maker .selected.labels li a.label.live2-label:hover,
-.labels_maker .selected.labels li a.label.live2-label + a.remove:hover {
+.labels_maker .selected.labels li a.label.livea-label:hover,
+.labels_maker .selected.labels li a.label.livea-label + a.remove:hover {
   background-color: #00e700;
   color: #0041e7;
 }

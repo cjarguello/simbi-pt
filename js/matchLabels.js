@@ -2,9 +2,9 @@ var LABEL_RULES = {
   // Define label rules here:
   // 'label_text': 'label_css_class'
   'planner': 'planner-label',
-  'needs': 'attention-label',
   'blocked': 'blocked-label',
-  'investigate': 'attention-label',
+  'needs': 'attention-label',
+  'needs': 'attention-label',
   'live': 'live-label'
 };
 

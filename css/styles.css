@@ -106,7 +106,7 @@
 /* Livea */
 
 .preview a.label.livea-label {
-  background-color: #00e700;
+  background-color: #7fc661;
   color: #416E28;
   border-radius: 20px;
   margin: 0 2px;
@@ -115,18 +115,18 @@
 }
 
 .labels_maker .selected.labels li a.label.livea-label + a.remove:before {
-  border-color: #416E28;
+  border-color: #7fc661;
 }
 
 .labels_maker .selected.labels li a.label.livea-label,
 .labels_maker .selected.labels li a.label.livea-label + a.remove {
-  background-color: #00e700;
+  background-color: #7fc661;
   color: #416E28;
 }
 
 .labels_maker .selected.labels li a.label.livea-label:hover,
 .labels_maker .selected.labels li a.label.livea-label + a.remove:hover {
-  background-color: #00e700;
-  color: #0041e7;
+  background-color: #7fc661;
+  color: #c261c6;
 }
 

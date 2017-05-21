@@ -5,7 +5,7 @@ var LABEL_RULES = {
   'blocked': 'blocked-label',
   'needs': 'attention-label',
   'live': 'live-label'
-  'live2': 'live2-label'
+  'livea': 'livea-label'
 
 };
 

@@ -79,7 +79,7 @@
 /* Live */
 .preview a.label.live-label {
   background-color: #7fc661;
-  color: #416e28;
+  color: #baff93;
   border-radius: 20px;
   margin: 0 2px;
   padding: 1px 6px 1px 6px;
@@ -87,13 +87,13 @@
 }
 
 .labels_maker .selected.labels li a.label.live-label + a.remove:before {
-  border-color: #416e28;
+  border-color: #baff93;
 }
 
 .labels_maker .selected.labels li a.label.live-label,
 .labels_maker .selected.labels li a.label.live-label + a.remove {
   background-color: #7fc661;
-  color: #416e28;
+  color: #baff93;
 }
 
 .labels_maker .selected.labels li a.label.live-label:hover,

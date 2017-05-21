@@ -78,8 +78,8 @@
 
 /* Live */
 .preview a.label.live-label {
-  background-color: #508730;
-  color: #9ef767;
+  background-color: #1fcd6d;
+  color: #fff;
   border-radius: 20px;
   margin: 0 2px;
   padding: 1px 6px 1px 6px;
@@ -87,17 +87,17 @@
 }
 
 .labels_maker .selected.labels li a.label.live-label + a.remove:before {
-  border-color: #9ef767;
+  border-color: #fff;
 }
 
 .labels_maker .selected.labels li a.label.live-label,
 .labels_maker .selected.labels li a.label.live-label + a.remove {
-  background-color: #508730;
-  color: #9ef767;
+  background-color: #1fcd6d;
+  color: #fff;
 }
 
 .labels_maker .selected.labels li a.label.live-label:hover,
 .labels_maker .selected.labels li a.label.live-label + a.remove:hover {
-  background-color: #508730;
+  background-color: #1fcd6d;
   color: #fff;
 }

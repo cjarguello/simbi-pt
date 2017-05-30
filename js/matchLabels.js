@@ -1,9 +1,20 @@
 var LABEL_RULES = {
   // Define label rules here:
   // 'label_text': 'label_css_class'
-  'planner': 'planner-label',
+  'placeholder': 'planner-label',
   'blocked': 'blocked-label',
-  'needs': 'attention-label',
+  '-pm': 'blocked-label',
+  '-ceo': 'blocked-label',
+  '-design': 'blocked-label',
+  '-discussion': 'blocked-label',
+  '-investigation': 'blocked-label',
+  '-tests': 'blocked-label',
+  '-manual-testing': 'blocked-label',
+  '-replication': 'blocked-label',
+  '-replicate': 'blocked-label',
+  '-breakdown': 'blocked-label',
+  '-discussion': 'blocked-label',
+  '-estimate': 'attention-label',
   'live': 'live-label'
 
 };

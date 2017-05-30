@@ -1,7 +1,9 @@
 var LABEL_RULES = {
   // Define label rules here:
   // 'label_text': 'label_css_class'
-  'placeholder': 'planner-label',
+  'planner': 'planner-label',
+  'placegolder': 'planner-label',
+  'in-planning': 'planner-label',
   'blocked': 'blocked-label',
   '-pm': 'blocked-label',
   '-ceo': 'blocked-label',

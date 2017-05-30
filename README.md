@@ -1,5 +1,5 @@
-## Testing PT
-It's gonna be great
+## Simbi PT
+A Chrome extension for Simbi, Inc's use of Pivotal Tracker
 
 ## Adding it to Chrome locally
 

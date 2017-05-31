@@ -11,6 +11,7 @@ var LABEL_RULES = {
   '-discussion': 'blocked-label',
   '-investigation': 'blocked-label',
   '-tests': 'blocked-label',
+  '-mp-testing': 'blocked-label',
   '-manual-testing': 'blocked-label',
   '-replication': 'blocked-label',
   '-replicate': 'blocked-label',

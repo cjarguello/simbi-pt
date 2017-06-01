@@ -106,9 +106,9 @@
 .preview a.label.special-label {
   background-color: #e5dcf5;
   color: #452481;
-  border-radius: 20px;
+  border-radius: 17.5px;
   margin: 0 2px;
-  padding: 1px 6px 1px 6px;
+  padding: 1px 5px 1px 5px;
   white-space: nowrap;
 }
 

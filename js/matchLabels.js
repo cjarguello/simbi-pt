@@ -18,6 +18,7 @@ var LABEL_RULES = {
   '-breakdown': 'blocked-label',
   '-discussion': 'blocked-label',
   '-estimate': 'attention-label',
+  'groups': 'special-label',
   'live': 'live-label'
 
 };

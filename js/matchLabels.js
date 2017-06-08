@@ -20,8 +20,8 @@ var LABEL_RULES = {
   '-discussion': 'blocked-label',
   '-estimate': 'attention-label',
   'communities': 'special-label',
-  'live': 'live-label'
   'critical': 'urgent-label',
+  'live': 'live-label'
 
 };
 

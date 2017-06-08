@@ -14,7 +14,6 @@ var LABEL_RULES = {
   '-tests': 'blocked-label',
   '-mp-testing': 'blocked-label',
   '-manual-testing': 'blocked-label',
-  'critical': 'blocked-label',
   '-replication': 'blocked-label',
   '-replicate': 'blocked-label',
   '-breakdown': 'blocked-label',
@@ -22,6 +21,7 @@ var LABEL_RULES = {
   '-estimate': 'attention-label',
   'communities': 'special-label',
   'live': 'live-label'
+  'critical': 'urgent-label',
 
 };
 

@@ -130,11 +130,10 @@
 
 /* Urgent */
 .preview a.label.urgent-label {
-  background-color: #F3F3D1;
   color: #AC311C;
-  border-radius: 17.5px;
+  border-radius: 15px;
   margin: 0 2px;
-  padding: 1px 5px .25px 5px;
+  padding: 1px 5px 1px 5px;
   white-space: nowrap;
 }
 
@@ -144,12 +143,10 @@
 
 .labels_maker .selected.labels li a.label.urgent-label,
 .labels_maker .selected.labels li a.label.urgent-label + a.remove {
-  background-color: #F3F3D1;
   color: #AC311C;
 }
 
 .labels_maker .selected.labels li a.label.urgent-label:hover,
 .labels_maker .selected.labels li a.label.urgent-label + a.remove:hover {
-  background-color: #F3F3D1;
   color: #AC311C;
 }

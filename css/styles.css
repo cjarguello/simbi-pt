@@ -132,7 +132,6 @@
 .preview a.label.urgent-label {
   color: #AC311C;
   border-radius: 15px;
-  margin: 0 2px;
   padding: 1px 5px 1px 5px;
   white-space: nowrap;
 }

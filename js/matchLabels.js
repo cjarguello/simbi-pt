@@ -7,18 +7,20 @@ var LABEL_RULES = {
   'blocked': 'blocked-label',
   '-pm': 'blocked-label',
   '-ceo': 'blocked-label',
+  '-cto': 'blocked-label',
   '-design': 'blocked-label',
   '-discussion': 'blocked-label',
   '-investigation': 'blocked-label',
   '-tests': 'blocked-label',
   '-mp-testing': 'blocked-label',
   '-manual-testing': 'blocked-label',
+  'critical': 'blocked-label',
   '-replication': 'blocked-label',
   '-replicate': 'blocked-label',
   '-breakdown': 'blocked-label',
   '-discussion': 'blocked-label',
   '-estimate': 'attention-label',
-  'groups': 'special-label',
+  'communities': 'special-label',
   'live': 'live-label'
 
 };

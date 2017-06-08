@@ -148,8 +148,8 @@
   color: #AC311C;
 }
 
-.labels_maker .selected.labels li a.label.special-label:hover,
-.labels_maker .selected.labels li a.label.special-label + a.remove:hover {
+.labels_maker .selected.labels li a.label.urgent-label:hover,
+.labels_maker .selected.labels li a.label.urgent-label + a.remove:hover {
   background-color: #FFFFCC;
   color: #AC311C;
 }

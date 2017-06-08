@@ -127,3 +127,29 @@
   background-color: #e5dcf5;
   color: #452481;
 }
+
+/* Urgent */
+.preview a.label.urgent-label {
+  background-color: #FFFFCC;
+  color: #AC311C;
+  border-radius: 17.5px;
+  margin: 0 2px;
+  padding: 1px 5px 1px 5px;
+  white-space: nowrap;
+}
+
+.labels_maker .selected.labels li a.label.urgent-label + a.remove:before {
+  border-color: #AC311C;
+}
+
+.labels_maker .selected.labels li a.label.urgent-label,
+.labels_maker .selected.labels li a.label.urgent-label + a.remove {
+  background-color: #FFFFCC;
+  color: #AC311C;
+}
+
+.labels_maker .selected.labels li a.label.special-label:hover,
+.labels_maker .selected.labels li a.label.special-label + a.remove:hover {
+  background-color: #FFFFCC;
+  color: #AC311C;
+}

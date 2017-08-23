@@ -2,7 +2,7 @@ var LABEL_RULES = {
   // Define label rules here:
   // 'label_text': 'label_css_class'
   'planner': 'planner-label',
-  'placegolder': 'planner-label',
+  'placeholder': 'planner-label',
   'in-planning': 'planner-label',
   'blocked': 'blocked-label',
   '-pm': 'blocked-label',
@@ -19,7 +19,7 @@ var LABEL_RULES = {
   '-breakdown': 'blocked-label',
   '-discussion': 'blocked-label',
   '-estimate': 'attention-label',
-  'communities': 'special-label',
+  'token': 'special-label',
   'critical': 'urgent-label',
   'live': 'live-label'
 

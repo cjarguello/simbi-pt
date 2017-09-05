@@ -151,21 +151,21 @@
 
 /* Estimate */
 .preview a.label.estimate-label {
-  color: #395468;
+  color: #9d6f00;
   padding: 1px 2.5px 1px 2.5px;
   white-space: nowrap;
 }
 
 .labels_maker .selected.labels li a.label.estimate-label + a.remove:before {
-  border-color: #395468;
+  border-color: #9d6f00;
 }
 
 .labels_maker .selected.labels li a.label.estimate-label,
 .labels_maker .selected.labels li a.label.estimate-label + a.remove {
-  color: #395468;
+  color: #9d6f00;
 }
 
 .labels_maker .selected.labels li a.label.estimate-label:hover,
 .labels_maker .selected.labels li a.label.estimate-label + a.remove:hover {
-  color: #395468;
+  color: #9d6f00;
 }
